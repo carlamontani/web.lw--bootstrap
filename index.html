@@ -35,7 +35,7 @@
               <a class="nav-link" href="#">Guías</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">DIYiiiyyy</a>
+                <a class="nav-link" href="#">DIY</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Blog</a>
@@ -55,35 +55,90 @@
 
     <div class="banner" style="background-image: url(https://images.unsplash.com/photo-1497105943914-b90d55145023?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&);">
         <div class="container">
-          <h1>Tutoriales y Guías de tejido</h1>
+          <h1>Tutoriales y Guías de Tejido</h1>
           <p>Invierno 2020</p>
         </div>
     </div>
 
     <!--BLOG-->
-
+    <div class="container padding">
+        <h5 class="padding-title">Destacado</h5>
+        <div class="row column-responsive">
+          <div class="col padding-img padding-responsive">
+            <div class="blog-category" style="background-image: url(https://images.unsplash.com/photo-1581497396202-5645e76a3a8e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9)">
+            </div>
+          </div>
+          <div class="col blog-text">
+            <h4 class="h4">Sweater Agosto</h4>
+            <h6>5/8/2020</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos itaque reiciendis aliquid quia id omnis deserunt, iure perferendis, quidem, temporibus doloribus cum dolorem distinctio facere? Assumenda voluptates ipsam ipsa provident.</p>
+            <a class="btn btn-flat" href="#">
+              Ver más
+            </a>
+          </div>
+        </div>
+    </div>
 
     <!--categories-->
     <div class="container padding">
-
-    <div class="cards">
-      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1541944743827-e04aa6427c33?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1526&q=80)">
-        Tricot
-      </div>
-    
-      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1527866428504-d0132d9ed08d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1575&q=80)">
-        Crochet
-      </div>
-    
-      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1527866512907-a35a62a0f6c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1575&q=80)">
-        Amigurumis
+      <div class="cards">
+        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1541944743827-e04aa6427c33?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1526&q=80)">
+          Tricot
+        </div>
+      
+        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1527866428504-d0132d9ed08d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1575&q=80)">
+          Crochet
+        </div>
+      
+        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1527866512907-a35a62a0f6c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1575&q=80)">
+          Amigurumis
+        </div>
       </div>
     </div>
 
-  </div>
+<!--contact-->
+    <div class="container-contact">
+      <div class="container padding">
+        <div class="mx-auto contact-me padding-responsive">
+          <h4>Dudas o consultas? <span class="h4">Contactame</span></h4>
+        </div>
+        <div class="row column-responsive">
+          <div div class="col padding-img padding-responsive">
+            <form>
+              <div class="form-group">
+                <label for="name">Tu nombre</label>
+                <input type="email" class="form-control" id="name" placeholder="nombre">
+              </div>
+              <div class="form-group">
+                <label for="email">Tu e-mail</label>
+                <input type="email" class="form-control" id="email" placeholder="dirección de e-mail">
+              </div>
+              <div class="form-group">
+                <label for="select-contact">Motivo de contacto</label>
+                <select class="form-control" id="select-contact">
+                  <option>Opinión</option>
+                  <option>Diseño</option>
+                  <option>Desarrollo</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message">Mensaje</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+              </div>
+            </form>
+            <button type="submit" disabled="disabled" class="btn btn-flat" id="submit">Envíar</button>
+          </div>
+
+          <div class="col padding-img">
+            <div class="blog-category" style="background-image: url(https://images.unsplash.com/photo-1580162869544-c4c0de655a02?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9)">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!--FOOTER-->
-    <div class="footer">
+    <div class="footer footer-responsive">
         <div class="footer-links">
           <a href="#"><i class="fab fa-github"></i></a>
           <a href="#"><i class="fab fa-instagram"></i></a>
@@ -95,5 +150,6 @@
           Design & Development by Carla Montani
         </div>
     </div>
+    <script src="./js/validation.js"></script>
   </body>
 </html>

@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&family=Rowdies:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
 
 *{
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Karla', sans-serif;
+  color: #735c3f;
 }
 
+.h4 {
+  font-weight: 700;
+}
 /*buttons*/
 
 .btn-ghost {
@@ -24,12 +30,12 @@
   color: white;
   padding: 8px 24px;
   border-radius: 4px;
-  background: #97d7e0;
+  background: #aa85e6;
   transition: background 0.3s ease;
 }
 
 .btn-flat:hover {
-  background: #b8f2e6;
+  background: #b397e0;
   color: white;
 }
 
@@ -65,12 +71,12 @@
 }
 
 #primary-color{
-  color: #f4acb7;
+  color: #aa85e6;
 }
 
 .navbar-lewagon {
     justify-content: space-between;
-    background: #ffdde3;
+    background: #f1ebf3;
   }
   
 .navbar-lewagon .navbar-collapse {
@@ -96,8 +102,7 @@
   
 .banner h1 {
     margin: 0;
-    color: #5e6472;
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    color: #735c3f;
     font-size: 32px;
     font-weight: bold;
 }
@@ -111,7 +116,7 @@
 
 
 
-/* cat */
+/* card */
 
 .card-category {
   background-size: cover;
@@ -128,7 +133,33 @@
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
-/* cat */
+/* img destacad */
+
+.blog-category {
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.padding-img {
+  padding: 50px 30px 50px 15px;
+}
+
+/* blog */
+.blog-text{
+  padding-top: 50px;
+}
+
+/* consultas */
+
+.contact-me{
+  max-width: 500px;
+}
+
+/* cards */
 
 .cards {
   display: grid;
@@ -139,6 +170,27 @@
 @media (min-width: 100px) and (max-width: 575px) {
   .cards {
     grid-template-columns: 1fr;
+  }
+  .footer-responsive{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .column-responsive{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .padding-responsive{
+    padding: 0 10px;
+  }
+  .padding-title{
+    padding: 0 10px;
+  }
+
+  .padding{
+    padding: 20px 0;
   }
 }
 
@@ -167,6 +219,10 @@
   }
 }
 
+/* CONTACT */
+.container-contact {
+  background-color: #f6f8f7;
+}
 
 /* FOOTER */
 
